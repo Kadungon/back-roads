@@ -1,6 +1,8 @@
+import Wrapper from "./hero.styles";
+
 const Hero = () => {
   return (
-    <div className="hero">
+    <Wrapper>
       <div className="hero-banner">
         <h1>continue exploring</h1>
         <p>
@@ -11,7 +13,7 @@ const Hero = () => {
           explore tours
         </a>
       </div>
-    </div>
+    </Wrapper>
   );
 };
 

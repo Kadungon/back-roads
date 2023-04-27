@@ -1,4 +1,5 @@
-import Hero from "./components/Hero";
+import Hero from "./components/hero/hero.component";
+
 function App() {
   return (
     <header>
