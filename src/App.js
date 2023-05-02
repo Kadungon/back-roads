@@ -3,7 +3,7 @@ import Hero from "./components/hero/hero.component";
 import About from "./components/about/about.component";
 import Service from "./components/service/service.component";
 import Feature from "./components/feature/feature.component";
-
+import Contact from "./components/contact/contact.component";
 function App() {
   return (
     <React.Fragment>
@@ -13,6 +13,7 @@ function App() {
       <About />
       <Service />
       <Feature />
+      <Contact />
     </React.Fragment>
   );
 }
