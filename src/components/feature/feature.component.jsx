@@ -6,7 +6,7 @@ import ImageThree from "../../static/images/tour-3.jpeg";
 import ImageFour from "../../static/images/tour-4.jpeg";
 const Feature = () => {
   return (
-    <Wrapper className="section">
+    <Wrapper className="section" id="feature">
       <div className="section-title">
         <h2>
           features <span>tour</span>

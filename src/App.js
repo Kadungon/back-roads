@@ -4,6 +4,8 @@ import About from "./components/about/about.component";
 import Service from "./components/service/service.component";
 import Feature from "./components/feature/feature.component";
 import Contact from "./components/contact/contact.component";
+import Gallery from "./components/gallery/gallery.component";
+import Footer from "./components/footer/footer.component";
 function App() {
   return (
     <React.Fragment>
@@ -14,6 +16,8 @@ function App() {
       <Service />
       <Feature />
       <Contact />
+      <Gallery />
+      <Footer />
     </React.Fragment>
   );
 }

@@ -2,7 +2,7 @@ import Wrapper from "./contact.styles";
 
 const Contact = () => {
   return (
-    <Wrapper className="section">
+    <Wrapper className="section" id="contact">
       <div className="section-center contact-center">
         <article className="contact-info">
           <h3>want latest tour info and updated?</h3>
