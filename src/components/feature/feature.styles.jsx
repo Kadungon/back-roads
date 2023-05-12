@@ -36,7 +36,6 @@ const Wrapper = styled.section`
   .tour-info {
     padding: 1.25rem 1.5rem;
   }
-
   .tour-footer {
     display: flex;
     flex-wrap: wrap;
