@@ -6,10 +6,12 @@ import Feature from "./components/feature/feature.component";
 import Contact from "./components/contact/contact.component";
 import Gallery from "./components/gallery/gallery.component";
 import Footer from "./components/footer/footer.component";
+import NavBar from "./components/nav/nav.component";
 function App() {
   return (
     <React.Fragment>
-      <header>
+      <header id="home">
+        <NavBar />
         <Hero />
       </header>
       <About />
